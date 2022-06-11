@@ -45,16 +45,39 @@ Muestra los valores.*/
 function sumar(a, b){
     return a + b;
 }
-console.log(sumar(10, 2));
-console.log()
+//console.log(sumar(10, 2));
+//console.log()
 var restar = function(a, b){
     return a - b;
 }
-console.log(restar(5, 2));
+//console.log(restar(5, 2));
+
+//ejercicio 6
+
+var global = "Hola!"
+function a(){
+  console.log(global);
+  global = "Hello!" 
+}
+function b(){
+  var global = "Chao!"
+  console.log(global)
+}
+a(); 
+b(); 
+console.log(global) 
+/*
+RESPUESTAS
+1er log:hola!
+2do log:chao!
+3er log:chao
+
+*/
 
  
 //let array=[10,21,22,2,5];
 
+/*
 function sacaMayores(arreglo){
     largo=arreglo.length;
     console.log(largo);
@@ -67,4 +90,4 @@ function sacaMayores(arreglo){
     }
     return (nuevo);
 }
-console.log(sacaMayores([10,21,22,2,5]));
+console.log(sacaMayores([10,21,22,2,5]))*/
