@@ -117,6 +117,8 @@ item ---> 9
 Muestra su valor
 Respuesta:True
 */
+
+
 //ejercicio 10
 /*
 item ---> 10
@@ -136,4 +138,24 @@ function sacaMayores(arreglo,nuevo){
     console.log(nuevo)
 }
 let nuevo=[];
-sacaMayores([10,21,22,2,5],nuevo)
+//sacaMayores([10,21,22,2,5],nuevo)
+
+
+// item ---> 11
+
+// Crea una función 
+// Lee el siguiente arreglo de objetos [{“nombre”: “Joaco”}, {“nombre”: “Seba”}, 
+// {“nombre”: “Juan”}, {“nombre”: “Cristian”}]
+// Muestra todos los nombres.
+obs=[
+    {nombre: "Joaco"}, 
+    {nombre: "Seba"},
+    {nombre: "Juan"}, 
+    {nombre: "Cristian"}
+];
+function muestraNombres(arrayObs){
+    arrayObs.forEach(element => {
+        console.log(element.nombre)
+    });
+}
+muestraNombres(obs)
