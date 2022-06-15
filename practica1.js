@@ -16,16 +16,17 @@ function potencia(){
 }
 //console.log(potencia());
 //ejercicio 4
-function idioma(nombre){
-    if(nombre=="Español"){
-        return("Hola");
-    }else if(nombre=="Chino"){
-        return("Chao");
-    }else if(nombre=="Portugues"){
-        return("Ola");
-    }else return("Error, ingrese un idioma válido")
-}
-//console.log(idioma("Español"));
+// function idioma(nombre){
+//     if(nombre=="Español"){
+//         return("Hola");
+//     }else if(nombre=="Chino"){
+//         return("Chao");
+//     }else if(nombre=="Portugues"){
+//         return("Ola");
+//     }else return("Error, ingrese un idioma válido")
+// }
+// console.log(idioma("Portugues"));
+
 
 /*ejercicio 5
 item ---> 5
@@ -158,4 +159,4 @@ function muestraNombres(arrayObs){
         console.log(element.nombre)
     });
 }
-muestraNombres(obs)
+//muestraNombres(obs)
